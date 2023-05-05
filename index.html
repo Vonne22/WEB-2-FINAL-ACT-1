@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Home Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    /* Make the footer sticky */
+    body {
+    min-height: 100vh;
+    background-image: url(homebg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    }
+
+    #content {
+      padding-bottom: 50px;
+    }
+    #footer {
+      height: 50px;
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      line-height: 50px;
+    }
+    .card {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+header {
+  background-color: transparent;
+}
+
+header, main {
+  margin-top: 50px;
+}
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark" style="background-color: rgba(255, 255, 255, 0.164);">
+    <a class="navbar-brand" href="#" style="color: rgb(4, 207, 4);">Sim Registration</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="firbase.html"></i> Add Sim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="UPDATE.html"></i> Edit Sim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="DELETE.html"></i> Delete Sim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="VIEW.html"></i> View Sim</a>
+        </li>
+      </ul>
+    </div>  
+  </nav>
+  
+
+  <!-- Main content -->
+  <div id="wrapper">
+    <header class="jumbotron text-center" style="background-color: transparent;">
+      <h1 style="color: white; font-size: 3rem; margin-bottom: .5rem;">This is the sim registration site</h1>
+      <p style="color: white; font-size: 1.2rem;">
+        "Stay connected with ease through hassle-free sim registration."</p>
+    </header>
+  
+    <main class="container" id="content" style="margin-top: 2rem;">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100" style="background-color: #660000;">
+            <img src="Dito.png" class="card-img-top" alt="DITO" style="object-fit: contain; height: 300px;">
+            <div class="card-body text-center">
+              <h2 class="card-title" style="color: white;">DITO</h2>
+              <p class="card-text" style="color: white;">
+                DITO SIM is a mobile network brand in the Philippines. It is a newcomer in the industry, launched in March 2021. DITO promises fast, affordable, and reliable services to its customers, competing with established telecom giants Globe and Smart.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="background-color: #000066;">
+            <img src="Globe.png" class="card-img-top" alt="GLOBE" style="object-fit: contain; height: 300px;">
+            <div class="card-body text-center">
+              <h2 class="card-title" style="color: white;">GLOBE</h2>
+              <p class="card-text" style="color: white;">
+                Globe is a telecommunications company in the Philippines that offers a wide range of products and services, including mobile communication, broadband internet, and digital solutions. Their SIM card provides access to their network, allowing users to stay connected and enjoy their services.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="background-color: #008000;">
+            <img src="smart.png" class="card-img-top" alt="SMART" style="object-fit: contain; height: 300px;">
+            <div class="card-body text-center">
+              <h2 class="card-title" style="color: white;">SMART</h2>
+              <p class="card-text" style="color: white;">
+                Smart Communications, Inc. is a major telecommunications provider in the Philippines. Their Smart Prepaid SIM offers a variety of call, text, and mobile data promos to fit different needs and budgets. It also features a Smart LTE network for faster internet speeds.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  
+
+ 
+</body>
+
+  <script>
+    //
